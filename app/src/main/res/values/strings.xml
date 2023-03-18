@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">סידור למועדי אייר</string>
+    <string name="title_activity_settings">הגדרות</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">שינויי נוסח</string>
+
+    <!-- Nusach Preferences -->
+    <string name="hallel">הצג הלל בתפילת ערבית</string>
+    <string name="haftra">הצג הפטרה בתפילת שחרית</string>
+</resources>
