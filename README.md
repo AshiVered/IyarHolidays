@@ -1,5 +1,5 @@
 # IyarHolidays
-Android application - the text of the prayers for the holidays in the month of Air (Independence Day and Jerusalem Day).
+Android application - the text of the prayers for the holidays in the month of Iyar (Independence Day and Jerusalem Day).
 # To do list
 - Adding the wording "Edot HaMizrah"
 - Adding an option to the setting to move the device to "do not disturb" mode (and maybe also to airplan mode) as soon as the application is opened
