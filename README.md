@@ -4,6 +4,9 @@ Android application - the text of the prayers for the holidays in the month of I
 - Adding the wording "Edot HaMizrah"
 - Adding an option to the setting to move the device to "do not disturb" mode (and maybe also to airplan mode) as soon as the application is opened
 - Automatic checking of the date (Independence Day/Jerusalem Day) - most likely will not be implemented soon.
+# Download
+[![google-play-badge.png](https://mitmachim.top/assets/uploads/files/1666811423893-google-play-badge.png)](https://play.google.com/store/apps/details?id=aiv.ashivered.book.iyarholidays) 
+- [Releases page](https://github.com/AshiVered/IyarHolidays/releases)
 # License
 The application code is licensed under GPL V3.0.
 
