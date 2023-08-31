@@ -8,9 +8,9 @@ android {
     defaultConfig {
         applicationId "aiv.ashivered.book.iyarholidays"
         minSdk 19
-        targetSdk 32
-        versionCode 1
-        versionName "1.0"
+        targetSdk 33
+        versionCode 101
+        versionName '1.1'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
