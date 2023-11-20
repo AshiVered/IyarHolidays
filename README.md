@@ -1,3 +1,7 @@
+![image](https://raw.githubusercontent.com/AshiVered/support-israel-banner/main/assets/support-israel-banner.jpg)
+
+
+
 # IyarHolidays
 Android application - the text of the prayers for the holidays in the month of Iyar (Independence Day and Jerusalem Day).
 # To do list
