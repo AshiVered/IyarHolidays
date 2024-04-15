@@ -30,6 +30,12 @@
             android:name=".ashkenaz"
             android:exported="false" />
         <activity
+            android:name=".emList"
+            android:exported="false" />
+        <activity
+            android:name=".em"
+            android:exported="false" />
+        <activity
             android:name=".menuList"
             android:exported="false" />
         <activity

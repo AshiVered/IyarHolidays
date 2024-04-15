@@ -44,6 +44,15 @@ public class menuList extends AppCompatActivity {
                 finish();
             }
         }
+        if (getItam.equals("עדות המזרח")) {
+            Intent intent = new Intent(Intent.ACTION_MAIN);
+            intent.setComponent(new ComponentName("aiv.ashivered.book.iyarholidays", "aiv.ashivered.book.iyarholidays.em"));
+            startActivity(intent);
+            {
+                super.onPause();
+                finish();
+            }
+        }
         else if(getItam.equals("אודות")){
             try {
                 InputStream inputStream = getAssets().open("about");

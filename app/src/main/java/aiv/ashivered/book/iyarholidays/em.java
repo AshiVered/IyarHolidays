@@ -13,23 +13,21 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class em extends AppCompatActivity {
 
     ListView lsview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_em);
 
         lsview = (ListView) findViewById(R.id.lstview);
 
         String[] chapter = {
-                "אשכנז",
-                "ספרד",
-                "עדות המזרח",
-                "אודות",
-                "הגדרות",
+                "שחרית",
+                "מנחה",
+                "ערבית",
         };
 
         ArrayAdapter< String > adapter = new ArrayAdapter < String > (this, android.R.layout.simple_list_item_1, chapter) {
@@ -54,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
                 String iteam = lsview.getItemAtPosition(position).toString();
 
-                Intent start = new Intent(getApplicationContext(), menuList.class);
-                start.putExtra("mainMenu", iteam);
+                Intent start = new Intent(getApplicationContext(), emList.class);
+                start.putExtra("emMenu", iteam);
                 startActivity(start);
 
             }
